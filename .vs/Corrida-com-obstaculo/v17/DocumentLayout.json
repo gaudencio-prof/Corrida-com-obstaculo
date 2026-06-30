@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALEJUNIOR.SISTEMAFIRJAN\\Corrida-com-obstaculo\\",
+  "WorkspaceRootPath": "C:\\Users\\BEN0058104.EDUCA.001\\source\\repos\\Corrida-com-obstaculo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B03A014-7099-1A3B-703B-88048E4A0E60}|Assembly-CSharp.csproj|c:\\users\\alejunior.sistemafirjan\\corrida-com-obstaculo\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B03A014-7099-1A3B-703B-88048E4A0E60}|Assembly-CSharp.csproj|c:\\users\\ben0058104.educa.001\\source\\repos\\corrida-com-obstaculo\\assets\\scripts\\pa giratoria (heitor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B03A014-7099-1A3B-703B-88048E4A0E60}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pa giratoria (heitor).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B03A014-7099-1A3B-703B-88048E4A0E60}|Assembly-CSharp.csproj|c:\\users\\ben0058104.educa.001\\source\\repos\\corrida-com-obstaculo\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B03A014-7099-1A3B-703B-88048E4A0E60}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B03A014-7099-1A3B-703B-88048E4A0E60}|Assembly-CSharp.csproj|c:\\users\\alejunior.sistemafirjan\\corrida-com-obstaculo\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B03A014-7099-1A3B-703B-88048E4A0E60}|Assembly-CSharp.csproj|C:\\Users\\BEN0058104.EDUCA.001\\source\\repos\\Corrida-com-obstaculo\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B03A014-7099-1A3B-703B-88048E4A0E60}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,10 +27,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Pa giratoria (Heitor).cs",
+              "DocumentMoniker": "C:\\Users\\BEN0058104.EDUCA.001\\source\\repos\\Corrida-com-obstaculo\\Assets\\Scripts\\Pa giratoria (Heitor).cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pa giratoria (Heitor).cs",
+              "ToolTip": "C:\\Users\\BEN0058104.EDUCA.001\\source\\repos\\Corrida-com-obstaculo\\Assets\\Scripts\\Pa giratoria (Heitor).cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pa giratoria (Heitor).cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T19:10:39.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CameraController.cs",
-              "DocumentMoniker": "C:\\Users\\ALEJUNIOR.SISTEMAFIRJAN\\Corrida-com-obstaculo\\Assets\\Scripts\\CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\BEN0058104.EDUCA.001\\source\\repos\\Corrida-com-obstaculo\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
-              "ToolTip": "C:\\Users\\ALEJUNIOR.SISTEMAFIRJAN\\Corrida-com-obstaculo\\Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\BEN0058104.EDUCA.001\\source\\repos\\Corrida-com-obstaculo\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -35,16 +52,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\ALEJUNIOR.SISTEMAFIRJAN\\Corrida-com-obstaculo\\Assets\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\BEN0058104.EDUCA.001\\source\\repos\\Corrida-com-obstaculo\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\ALEJUNIOR.SISTEMAFIRJAN\\Corrida-com-obstaculo\\Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\BEN0058104.EDUCA.001\\source\\repos\\Corrida-com-obstaculo\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T18:32:35.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T18:32:35.417Z"
             }
           ]
         }
