@@ -83,5 +83,10 @@ public class PlayerController : MonoBehaviour
         // Gravidade
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+
+    }
+    public void Impulsionar(float forca)
+    {
+        velocity.y = forca;
     }
 }
