@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 1447748882311105931}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09eb26cca849e84bb537afa9f501b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 7
   rotationSpeed: 10
   jumpHeight: 2
   gravity: -9.81
