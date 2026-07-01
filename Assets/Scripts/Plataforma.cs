@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Plataforma : MonoBehaviour
@@ -22,7 +20,7 @@ public class Plataforma : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Player detectado");
-            collision.transform.SetParent(transform.parent);
+            collision.transform.SetParent(transform);
         }
     }
 }
