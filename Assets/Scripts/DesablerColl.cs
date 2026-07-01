@@ -1,10 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DesablerColl : MonoBehaviour
 {
- {
+
     public float Intervalo = 1f;
 
     private Collider colisor;
@@ -14,35 +13,41 @@ public class DesablerColl : MonoBehaviour
     {
         colisor = GetComponent<Collider>();
         rend = GetComponent<Renderer>();
+        StartCoroutine(ComportamentoPlataforma());
     }
 
-    void Update()
+
+
+    IEnumerator ComportamentoPlataforma()
     {
-       colisor.enabled;
-       Alternar();
-       yield return new WaitForSeconds(Intervalo);
-       colisor.disabled;
-       Alternar();
-       yield return new WaitForSeconds(Intervalo); 
+        while (true)
+        {
+            colisor.enabled = false;
+            Alternar();
+            yield return new WaitForSeconds(Intervalo);
+            colisor.enabled = true;
+            Alternar();
+            yield return new WaitForSeconds(Intervalo);
+        }
     }
 
     public void Alternar()
     {
-        if(colisor.enabled)
+        if (colisor.enabled)
         {
             rend.enabled = true;
             Color cor = rend.material.color;
             cor.a = 1f;
-            rend.material.color = cor;         
+            rend.material.color = cor;
         }
-            else if(!colisor.enabled)
-            {
-                rend.enabled = false;
-                Color cor = rend.material.color;
-                cor.a = 0f;
-                rend.material.color = cor;
-            }       
+        else if (!colisor.enabled)
+        {
+            rend.enabled = false;
+            Color cor = rend.material.color;
+            cor.a = 0f;
+            rend.material.color = cor;
+        }
     }
- }
+
 }
 
