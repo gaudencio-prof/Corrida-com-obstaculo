@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [Header("Dash")]
     [SerializeField] private float dashForce = 10f;
     [SerializeField] private float dashCooldown = 0.5f;
+    private Animator animator;
 
     private Rigidbody rb;
 
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        animator = GetComponentInChildren<Animator>();
 
         rb.freezeRotation = true;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
@@ -36,6 +38,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+
         ReadInput();
         Rotate();
 
@@ -46,6 +49,11 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && dashTimer <= 0f)
             Dash();
+        if (Grounded)
+        {
+            animator.SetFloat(Animator.StringToHash("moving"), inputDirection.sqrMagnitude);
+
+        }
     }
 
     private void FixedUpdate()
@@ -113,6 +121,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
+        animator.Play(Animator.StringToHash("Jump"));
         Vector3 velocity = rb.velocity;
         velocity.y = 0f;
         rb.velocity = velocity;
